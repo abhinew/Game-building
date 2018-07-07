@@ -17,8 +17,9 @@ const innUI = document.getElementById("inn");
 innUI.addEventListener("click", function() {
     hero.health = 10;
 }); 
-function pickUpItem() {
 
+function pickUpItem(testHero, testObject) {
+    testHero.inventory.push(testObject); 
 }
 function equipWeapon() {
 
