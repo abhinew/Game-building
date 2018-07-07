@@ -9,8 +9,9 @@ let hero = {
         damage: 2
     }
 }
-function rest() {
-
+function rest(testCreature2) {
+    testCreature2.health = 10;
+    return testCreature2;
 }
 
 function pickUpItem() {
