@@ -4,15 +4,29 @@
     <title>Mocha Tests</title>
     <link href="https://unpkg.com/mocha@4.0.1/mocha.css" rel="stylesheet" />
     <link href="styles.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+  <!-- or -->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 </head>
 <body>
 
 
   <!-- YOUR HTML HERE -->
+  <h3>Inventories</h3>
   <img id="inn" src="images/carrot.png" />
-  <img id="dagger" src="images/dagger.png" />
+  <img  src="images/dagger.png" />
   <img id="bag" src="images/bag.jpg" />
+  <h3>Hero Stats</h3>
   <ul id="hero-attributes">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+  <h3>Enemy Stats</h3>
+  <ul id="enemy-attributes">
     <li></li>
     <li></li>
     <li></li>
@@ -23,6 +37,10 @@
     <input id="hero-name" type="text" name="hero-name" />
     <button>Submit</button>
   </form>
+  <button id="play">Strike enemy</button>
+  <img id="hero" src="images/Ariane.png" alt="Ariane" />
+  <img  id="dagger" src="images/dagger.png" />
+  <img src="images/Owen.png" alt="Owen" id="enemy">
   <!-- I RECOMMEND YOU LEAVE THE REST UNTOUCHED -->
   <div id="mocha"></div>
 

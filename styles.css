@@ -1,5 +1,24 @@
 img {
+    height: 300px;
+    width: 300px;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+#dagger {
     height: 100px;
     width: 100px;
 }
+/* .rotation {
+    transform: rotate(0.5turn);
+    transform: translate(120px, 50%);
+    animation: slidein 3s linear 1s infinite running;
+} */
 
+.hide {
+    display: none;
+}
