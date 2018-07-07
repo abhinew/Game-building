@@ -21,6 +21,12 @@ innUI.addEventListener("click", function() {
 function pickUpItem(testHero, testObject) {
     testHero.inventory.push(testObject); 
 }
+
+const inventoryCount = hero.inventory.length;
+document.getElementById("dagger").addEventListener("click", function() {
+    hero.inventory.push({type: "dagger", damage: 2});
+});
+
 function equipWeapon() {
 
 }
