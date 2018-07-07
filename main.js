@@ -27,6 +27,7 @@ document.getElementById("dagger").addEventListener("click", function() {
     hero.inventory.push({type: "dagger", damage: 2});
 });
 
-function equipWeapon() {
+function equipWeapon(testHero) {
+    testHero.weapon = testHero.inventory[0];
 
 }
