@@ -13,7 +13,10 @@ function rest(testCreature2) {
     testCreature2.health = 10;
     return testCreature2;
 }
-
+const innUI = document.getElementById("inn");
+innUI.addEventListener("click", function() {
+    hero.health = 10;
+}); 
 function pickUpItem() {
 
 }
