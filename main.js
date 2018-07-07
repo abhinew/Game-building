@@ -32,3 +32,7 @@ function equipWeapon(testHero) {
         testHero.weapon = testHero.inventory[0];
     }
 }
+const bagUI = document.getElementById("bag");
+bagUI.addEventListener("click", function() {
+    hero.weapon = hero.inventory[0];
+});
