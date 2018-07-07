@@ -43,8 +43,8 @@ bagUI.addEventListener("click", function() {
 //Call it at the end of your script
 
 function displayStats() {
+    console.log(hero);
     let heroAttributes = document.getElementById("hero-attributes").children;
-    console.log(heroAttributes);
     heroAttributes[0].innerText = hero.name;
     heroAttributes[1].innerText = hero.health;
     heroAttributes[2].innerText = hero.weapon.type;
@@ -52,3 +52,12 @@ function displayStats() {
 }
 
 displayStats();
+
+//Create a form that allow users to change the name of their hero
+
+function updateHeroDetails() {
+    let newHeroName = document.getElementById("hero-name").value;
+    hero.name = newHeroName;
+    displayStats();
+}
+
