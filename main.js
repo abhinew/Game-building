@@ -28,6 +28,7 @@ document.getElementById("dagger").addEventListener("click", function() {
 });
 
 function equipWeapon(testHero) {
-    testHero.weapon = testHero.inventory[0];
-
+    if(testHero.inventory.length != 0) {
+        testHero.weapon = testHero.inventory[0];
+    }
 }
