@@ -1,6 +1,6 @@
 img {
-    height: 300px;
-    width: 300px;
+    height: 100px;
+    width: 100px;
 }
 
 li {
@@ -10,8 +10,17 @@ li {
 
 
 #dagger {
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 300px;
+}
+
+#enemy {
+    height: 300px;
+    width: 300px;
+}
+#hero {
+    height: 300px;
+    width: 300px;
 }
 /* .rotation {
     transform: rotate(0.5turn);
